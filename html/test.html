@@ -1,0 +1,60 @@
+<HTML>
+
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+                           <!-- hide from none JavaScript Browsers
+
+                           Image1 = new Image()
+                           Image1.src = "a1.jpg"
+                           Image2 = new Image()
+                           Image2.src = "a1-1.jpg"
+                           Image3 = new Image()
+                           Image3.src = "c1.jpg"
+                           Image4 = new Image()
+                           Image4.src = "c1-1.jpg"
+
+
+                           function SwapOuta() {
+                           document.imageflipa.src = Image2.src; return
+                           true;
+                           }
+
+                           function SwapOutc() {
+                           document.imageflipc.src = Image4.src; return
+                           true;
+                           }
+
+                           function SwapBacka() {
+                           document.imageflipa.src = Image1.src; return
+                           true;
+                           }
+
+                           function SwapBackc() {
+                           document.imageflipc.src = Image3.src; return
+                           true;
+                           }
+
+</SCRIPT>
+</HEAD>
+<BODY BACKGROUND="back.jpg">
+<CENTER><B><U><FONT FACE="Comic Sans MS" SIZE=+3>EDDIE SPAGHETTI
+DOT COM</FONT></U></B></CENTER><BR>
+<CENTER>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+<TR>
+<TD><A HREF="pict.html" onMouseOver="SwapOuta()" onMouseOut="SwapBacka()">
+<IMG SRC="a1.jpg" NAME="imageflipa" BORDER=0 ALT="Look At Pictures Of Eddie Spaghetti!!" WIDTH=180 HEIGHT=300></TD>
+<TD><A HREF="test.html"><IMG SRC="b1.jpg" BORDER=0 WIDTH=100 HEIGHT=300></TD>
+<TD><A HREF="music.html" onMouseOver="SwapOutc()" onMouseOut="SwapBackc()">
+<IMG SRC="c1.jpg" NAME="imageflipc" BORDER=0 ALT="Listen To His Music!!" WIDTH=198 HEIGHT=300></TD>
+</TR>
+<tr>
+<td><img src="a2.jpg"></td>
+<td><img src="b2.jpg"></td>
+<td><img src="c2.jpg"></td>
+</tr>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>

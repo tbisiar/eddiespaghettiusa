@@ -1,0 +1,52 @@
+<HTML>
+<HEAD>
+
+<!--This site by Terry Bisiar, t_bisiar@hotmail.com-->
+
+<script language="javascript">
+<!--
+
+	function popup( the_file ) {
+	
+		the_popup = window.open( the_file,"","height=450,width=400,toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resize=yes");
+		
+		if (window.focus) {
+			the_popup.focus();
+		}
+	}
+
+	function popupsize( the_file, the_width, the_height ) {
+	
+		if (!the_width) {
+			the_width = 400;
+			the_height = 450;
+		}
+	
+		propertystring = "height=" + the_height + ",width=" + the_width + ",toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=no,resize=yes";
+	
+		the_popup = window.open( the_file,"",propertystring);
+		
+		if (window.focus) {
+			the_popup.focus();
+		}
+	}
+
+
+//-->
+</script>
+
+</HEAD>
+<BODY LINK="BLUE" VLINK="BLUE" BACKGROUND="back.jpg">
+
+<CENTER><B><U><FONT FACE="Comic Sans MS" SIZE=+3>EDDIE SPAGHETTI'S ACTIVITIES
+</FONT></U></B></CENTER><BR>
+<CENTER><FONT FACE="Comic Sans MS">
+<A HREF="javascript:popup( 'color.html' )" onMouseOver="this.style.color = 'red';" onMouseOut="this.style.color = 'blue';">
+COLORING BOOK :
+<IMG SRC="coloring1-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+<A HREF="javascript:popup( 'mem.html' )" onMouseOver="this.style.color = 'red';" onMouseOut="this.style.color = 'blue';">
+MEMORY :
+<IMG SRC="mem.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+</CENTER>
+</BODY>
+</HTML>
