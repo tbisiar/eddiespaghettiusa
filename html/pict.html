@@ -3,57 +3,39 @@
 <!--This site by Terry Bisiar, t_bisiar@hotmail.com-->
 
 <HEAD>
-<script language="javascript">
-<!--
-
-	function popup( the_file ) {
-	
-		the_popup = window.open( the_file,"","height=500,width=650,toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resize=yes");
-		
-		if (window.focus) {
-			the_popup.focus();
-		}
-	}
-
-	function popupsize( the_file, the_width, the_height ) {
-	
-		if (!the_width) {
-			the_width = 650;
-			the_height = 500;
-		}
-	
-		propertystring = "height=" + the_height + ",width=" + the_width + ",toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=no,resize=yes";
-	
-		the_popup = window.open( the_file,"",propertystring);
-		
-		if (window.focus) {
-			the_popup.focus();
-		}
-	}
-
-
-//-->
-</script>
+    <script src="../script/popup.js"></script>
 
 </HEAD>
-<BODY BACKGROUND="back.jpg">
+<BODY BACKGROUND="../image/back.jpg">
 
-<CENTER><B><U><FONT FACE="Comic Sans MS" SIZE=+3>EDDIE SPAGHETTI PICTURES
-</FONT></U></B></CENTER><BR>
-<CENTER>
-<A HREF="javascript:popup( 'xrds.html' )">
-<IMG SRC="prfrm@xrds-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100></A>
-<A HREF="javascript:popup( 'bunni.html' )">
-<IMG SRC="eddie+bunnies1.jpg" BORDER=0 HEIGHT=150 WIDTH=100></A>
-<A HREF="javascript:popup( 'santa.html' )">
-<IMG SRC="eddie+santa-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100></A>
-<A HREF="javascript:popup( 'library_b+w.html' )">
-<IMG SRC="library_b+w-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100></A>
+<CENTER><B><U><FONT FACE="Comic Sans MS" SIZE=+3>
+    EDDIE SPAGHETTI PICTURES
+</FONT></U></B></CENTER>
+
 <BR>
-<A HREF="javascript:popup( 'library.html' )">
-<IMG SRC="library-t.jpg" BORDER=0 HEIGHT=100 WIDTH=150></A>
-<A HREF="javascript:popup( 'lyonshow.html' )">
-<IMG SRC="lyonshow-t.jpg" BORDER=0 HEIGHT=100 WIDTH=150></A>
+
+<CENTER>
+    <a href="javascript:popup( 'xrds.html' )">
+        <img src="../image/prfrmAtXrds-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100>
+    </a>
+    <a href="javascript:popup( 'bunni.html' )">
+        <img src="../image/eddie+bunnies1.jpg" BORDER=0 HEIGHT=150 WIDTH=100>
+    </a>
+    <a href="javascript:popup( 'santa.html' )">
+        <img src="../image/eddie+santa-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100>
+    </a>
+    <a href="javascript:popup( 'library_b+w.html' )">
+        <img src="../image/library_b+w-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100>
+    </a>
+
+    <br>
+    
+    <a href="javascript:popup( 'library.html' )">
+        <img src="../image/library-t.jpg" BORDER=0 HEIGHT=100 WIDTH=150>
+    </a>
+    <a href="javascript:popup( 'lyonshow.html' )">
+        <img src="../image/lyonshow-t.jpg" BORDER=0 HEIGHT=100 WIDTH=150>
+    </a>
 </CENTER>
 </BODY>
 </HTML>

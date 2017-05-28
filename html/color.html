@@ -3,53 +3,34 @@
 <!--This site by Terry Bisiar, t_bisiar@hotmail.com-->
 
 <HEAD>
-<script language="javascript">
-<!--
-
-	function popup( the_file ) {
-	
-		the_popup = window.open( the_file,"","height=500,width=660,toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=yes,resize=yes");
-		
-		if (window.focus) {
-			the_popup.focus();
-		}
-	}
-
-	function popupsize( the_file, the_width, the_height ) {
-	
-		if (!the_width) {
-			the_width = 660;
-			the_height = 500;
-		}
-	
-		propertystring = "height=" + the_height + ",width=" + the_width + ",toolbar=no,location=no,directories=no,status=no,menubar=yes,scrollbars=no,resize=yes";
-	
-		the_popup = window.open( the_file,"",propertystring);
-		
-		if (window.focus) {
-			the_popup.focus();
-		}
-	}
-
-
-//-->
-</script>
+    <script src="../script/popup.js"></script>
 
 </HEAD>
-<BODY BACKGROUND="back.jpg">
+<BODY BACKGROUND="../image/back.jpg">
 
-<CENTER><B><U><FONT FACE="Comic Sans MS" SIZE=+3>EDDIE SPAGHETTI'S COLORING BOOK
-</FONT></U></B></CENTER><BR>
-<CENTER><A HREF="javascript:popup( 'color1.html' )">
-<IMG SRC="coloring1-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
-<A HREF="javascript:popup( 'color2.html' )">
-<IMG SRC="coloring2-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
-<A HREF="javascript:popup( 'color3.html' )">
-<IMG SRC="coloring3-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
-<A HREF="javascript:popup( 'color4.html' )">
-<IMG SRC="coloring4-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
-<A HREF="javascript:popup( 'color5.html' )">
-<IMG SRC="coloring5-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+<CENTER>
+    <B>
+        <U>
+            <FONT FACE="Comic Sans MS" SIZE=+3>
+                EDDIE SPAGHETTI'S COLORING BOOK
+            </FONT>
+        </U>
+    </B>
+</CENTER>
+
+<BR>
+
+<CENTER>
+    <A HREF="javascript:popup( 'color1.html' )">
+        <IMG SRC="../image/coloring1-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+    <A HREF="javascript:popup( 'color2.html' )">
+        <IMG SRC="../image/coloring2-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+    <A HREF="javascript:popup( 'color3.html' )">
+        <IMG SRC="../image/coloring3-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+    <A HREF="javascript:popup( 'color4.html' )">
+        <IMG SRC="../image/coloring4-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
+    <A HREF="javascript:popup( 'color5.html' )">
+        <IMG SRC="../image/coloring5-t.jpg" BORDER=0 HEIGHT=150 WIDTH=100 ALIGN=middle></A>
 </CENTER>
 </BODY>
 </HTML>
