@@ -1,0 +1,21 @@
+/* Custom style sheet for eddiespaghettiusa */
+
+body {
+    background-image:  url("../image/back.jpg");
+    background-color: aqua;
+    font-size: 2em;
+    font-family: "Comic Sans MS", sans-serif;
+    padding-top: 60px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.underline {
+    text-decoration: underline;
+}
